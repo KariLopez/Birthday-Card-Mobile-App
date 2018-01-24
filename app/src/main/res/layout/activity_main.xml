@@ -7,31 +7,52 @@
     tools:context="com.example.klopez.happybirthday.MainActivity">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/birthday" />
+        android:src="@drawable/sky"
+        android:rotation="0"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday Vanessa!"
-        android:textSize="36sp"
+        android:text="Just like hopes"
+        android:textSize="30sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
-        android:paddingLeft="20dp"
-        android:paddingTop="20dp"/>
-
+        android:paddingLeft="30dp"
+        android:paddingTop="40dp"/>
     <TextView
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="springing high,"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:paddingLeft="120dp"
+        android:paddingTop="90dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="still I rise"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:paddingTop="150dp"
+        android:paddingRight="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:text="From Karina"
+        android:text="Congrats, on your promotion!"
         android:textSize="36sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
-        android:paddingRight="20dp"
-        android:paddingBottom="20dp"/>
-
-
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:textAlignment="center"
+        />
 </RelativeLayout>
